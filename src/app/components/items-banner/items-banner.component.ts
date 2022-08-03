@@ -10,4 +10,5 @@ import { Item } from '../item/item';
 export class ItemsBannerComponent {
   @Input() items: Item[] = [];
   @Input() title: string = '';
+  @Input() routerPath:string ='';
 }
